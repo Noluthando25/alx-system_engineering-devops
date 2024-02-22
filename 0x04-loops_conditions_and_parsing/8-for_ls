@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+for file in *
+do
+    if [ -f "$file" ] && [[ "$file" != .* ]]  # Check if it's a file and not a hidden file
+    then
+        name=$(echo "$file" | cut -d'-' -f2-)  # Extract part after the first dash
+        echo "$name"
+    fi
+done
