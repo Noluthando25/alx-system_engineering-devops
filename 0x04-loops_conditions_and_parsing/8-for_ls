@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#Displays content of the current directory
 for file in *
 do
     if [ -f "$file" ] && [[ "$file" != .* ]]  # Check if it's a file and not a hidden file
