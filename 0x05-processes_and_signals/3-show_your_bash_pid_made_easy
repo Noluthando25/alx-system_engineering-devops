@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+# Find PIDs of processes containing the word "bash" in their names
+pgrep -l bash

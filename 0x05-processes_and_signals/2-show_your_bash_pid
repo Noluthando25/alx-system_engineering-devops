@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+# shellcheck disable=SC2009
+ps axjf | grep bash
