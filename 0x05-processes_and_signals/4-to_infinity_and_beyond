@@ -1,5 +1,5 @@
-#!/usr/bin/bash
-
+#!/usr/bin/env bash
+#Displays To infinity and beyond indefinitely.
 while true
 do
     echo "To infinity and beyond"
