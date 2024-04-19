@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/pup
 exec { 'pkill killmenow':
   path => 'usr/bin':/usr/sbin:/bin'
 }
