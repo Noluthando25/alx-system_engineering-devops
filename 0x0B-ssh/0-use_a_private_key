@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+ssh -i ~/.ssh/school ubuntu@939b61a1cc73.ca3bcf03.alx-cod.online
