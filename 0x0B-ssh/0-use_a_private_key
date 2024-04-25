@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-
+# Comments to my school server
 ssh -i ~/.ssh/school ubuntu@100.25.141.24
