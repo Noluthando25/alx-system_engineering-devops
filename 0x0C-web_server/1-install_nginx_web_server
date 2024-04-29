@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+# Install nginx
+apt update
+apt install -y nginx
+
+# Configure nginx to listen on port 80
+echo "server {
+    listen 80 default_server;
+    server_name _;
+    
+    location / {
+        echo 'Hello World!';
+    }
+}" > /etc/nginx/sites-available/default
+
+# Restart nginx without using systemctl
+pkill -HUP nginx
+
+echo "Nginx installed and configured successfully. It should now be listening on port 80 and return 'Hello World!' when querying the root."
