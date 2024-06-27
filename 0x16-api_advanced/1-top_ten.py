@@ -1,14 +1,15 @@
 #!/usr/bin/python3
 '''
-    this module contains the function top_ten
+    This module contains the function top_ten
 '''
+
 import requests
 from sys import argv
 
 
 def top_ten(subreddit):
     '''
-        returns the top ten posts for a given subreddit
+        Returns the top ten posts for a given subreddit
     '''
     user = {'User-Agent': 'Lizzie'}
     url = requests.get('https://www.reddit.com/r/{}/hot/.json?limit=10'
