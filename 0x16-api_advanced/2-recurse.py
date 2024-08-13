@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-Contains recurse function
-"""
+"""Contains recurse function."""
 
 import requests
 
